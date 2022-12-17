@@ -1,0 +1,21 @@
+<suite name="Suite1" verbose="1">
+    <test name="First Test">
+        <classes>
+            <class name="ConfigurationAnnotations">
+                <method>
+                    <include name="search_Customer"/>
+                </method>
+            </class>
+        </classes>
+    </test>
+
+    <test name ="Second Test">
+        <classes>
+            <class name="Hello">
+                <method>
+                    <include name="search_Customer"/>
+                </method>
+            </class>
+        </classes>
+    </test>
+</suite>
